@@ -1,0 +1,27 @@
+.zodiac-signs-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.zodiac-signs-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 элемента в строке */
+    gap: 10px; /* Отступы между элементами */
+}
+
+.zodiac-signs-grid-item {
+    background-color: #535bf2;
+    max-height: 100px;
+    max-width: 100px;
+    width: calc((100vw - 3 * 10px - 2 * 16px) / 4); /* 25% от ширины окна */
+    height: calc((70vw - 3 * 10px - 2 * 16px) / 4); /* 25% от ширины окна (равно ширине) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+}

@@ -1,0 +1,58 @@
+.aspects-container {
+    flex: 5; /* Занимает оставшееся пространство */
+    display: flex;
+    flex-direction: column; /* Размещаем элементы по вертикали */
+    background: #747bff;
+    border-radius: 8px;
+}
+
+.aspects-label {
+    height: 34px; /* Фиксированная высота для label */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #535bf2;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px 8px 0 0; /* Скругленные верхние углы */
+}
+
+.aspects-text {
+    flex: 1; /* Занимает все оставшееся пространство */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6a70ff;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.aspects-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 элемента в строке */
+    gap: 10px; /* Отступы между элементами */
+    margin-top: 10px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+}
+
+.aspects-grid-item {
+    background-color: #535bf2;
+    max-height: 100px;
+    max-width: 100px;
+    width: calc((100vw - 3 * 10px - 2 * 16px - 2 * 8px) / 4); /* 25% от ширины окна */
+    height: calc((60vw - 3 * 10px - 2 * 16px - 2 * 8px) / 4); /* 25% от ширины окна (равно ширине) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+}

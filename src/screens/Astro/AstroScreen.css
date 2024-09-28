@@ -1,0 +1,24 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 34px;
+    box-sizing: border-box;
+}
+
+.top-container {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw - 2 * 16px);
+    height: calc(100vw - 2 * 16px);
+    box-sizing: border-box;
+    background: #747bff;
+    margin: 8px 16px 8px 16px;
+}
+
+.open-container-image {
+    width: 60vw;
+    height: 60vw;
+}

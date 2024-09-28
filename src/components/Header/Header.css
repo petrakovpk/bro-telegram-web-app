@@ -1,0 +1,6 @@
+.zodiac-label-container {
+    flex: 1; /* Занимает оставшееся пространство */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

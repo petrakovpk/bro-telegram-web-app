@@ -1,0 +1,31 @@
+.forecast-container {
+    flex: 3; /* Занимает оставшееся пространство */
+    display: flex;
+    flex-direction: column; /* Размещаем элементы по вертикали */
+    background: #747bff;
+    border-radius: 8px;
+}
+
+.forecast-label {
+    height: 34px; /* Фиксированная высота для label */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #535bf2;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px 8px 0 0; /* Скругленные верхние углы */
+}
+
+.forecast-text {
+    flex: 1; /* Занимает всё оставшееся пространство */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6a70ff;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px; /* Скругленные нижние углы */
+}

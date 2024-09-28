@@ -1,0 +1,12 @@
+.closed-forecast-container {
+    flex: 8; /* Занимает оставшееся пространство */
+    display: flex;
+    flex-direction: column; /* Размещаем элементы по вертикали */
+    background: #747bff;
+    border-radius: 8px;
+}
+
+.closed-forecast-image {
+    display: flex;
+    border-radius: 8px;
+}

@@ -1,0 +1,12 @@
+
+.open-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #535bf2;
+    height: 45px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
